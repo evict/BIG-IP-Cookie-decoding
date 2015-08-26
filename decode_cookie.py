@@ -60,6 +60,7 @@ def decode_ip(hex_ip, port):
 def main():
 	try:
 		print("[+] Value decoded: %s"% parse_cookie(sys.argv[1]))
+		
 	except IndexError:
 		print("[-] Please specify a value")
 
